@@ -45,7 +45,10 @@ Animations to title
     }
 }
 ```
-
+Compile SASS (In the terminal)
+```
+npm run compile:sass
+```
 
 ### Deployment
 [Tours Link](https://randyaajr.github.io/tours/)
