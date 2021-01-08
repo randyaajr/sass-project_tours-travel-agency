@@ -45,7 +45,7 @@ Animations to title
     }
 }
 ```
-Compile SASS (In the terminal)
+Compile SASS (In the terminal to start SCSS compiler)
 ```
 npm run compile:sass
 ```
