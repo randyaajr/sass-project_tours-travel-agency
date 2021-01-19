@@ -1,10 +1,10 @@
 # Tours
----
 
 
 ## Languages Used
 - HTML5
 - CSS3 
+- CSS Float Layouts
 
 ## CSS Tricks
 clip-path added to the header. 
