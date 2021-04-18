@@ -1,17 +1,21 @@
 # Tours
 
-
 ## Languages Used
+
 - HTML5
-- CSS3 
+- CSS3
 - CSS Float Layouts
 
 ## CSS Tricks
-clip-path added to the header. 
+
+clip-path added to the header.
+
 ```
 clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 ```
+
 Animations to title
+
 ```
 @keyframes moveInLeft {
     0% {
@@ -45,10 +49,13 @@ Animations to title
     }
 }
 ```
+
 Compile SASS (In the terminal to start SCSS compiler)
+
 ```
 npm run compile:sass
 ```
 
 ### Deployment
-[Tours Link](https://randyaajr.github.io/tours/)
+
+[Tours Link](https://randyaajr.github.io/sass-project_tours-travel-agency/)
