@@ -6,7 +6,7 @@
         border-radius: 2px;
         position: absolute;
         z-index: 10;
-        transform: all 0.2s;
+        transition: all 0.2s;
         outline-offset: 2rem;
         &--p1 {
             left: 0;
