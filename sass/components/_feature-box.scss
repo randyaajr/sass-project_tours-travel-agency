@@ -5,6 +5,17 @@
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
-    &__icon {}
+    transition: 0.3s;
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+        background-image: linear-gradient( to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
     &__text {}
 }
