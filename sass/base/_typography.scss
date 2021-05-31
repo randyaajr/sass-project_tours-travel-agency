@@ -53,6 +53,7 @@ body {
     transition: all 0.2s;
     @include respond(tab-port) {
         font-size: 3rem;
+        margin-top: 15rem;
     }
     @include respond(phone) {
         font-size: 2.5rem;
