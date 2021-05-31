@@ -1,4 +1,4 @@
-# Tours
+# Tours Travel Agency
 
 ### Table of Contents (under construction)
 
@@ -1300,7 +1300,7 @@ When to use responsive images: the 3 use cases
 
 The best unit to use in media queries is em as it covers browser variety well and adjusts to the user defined browser font size.
 
-Below is an example of the Natours tours section using 900px as a break point and a user setting the browser font size to 20px. When the screen width is set to 916px the grid layout maintains it's 3 column structure.
+Below is an example of the Tours Travel Agency, tours section using 900px as a break point and a user setting the browser font size to 20px. When the screen width is set to 916px the grid layout maintains it's 3 column structure.
 <img src="img/rm_900px20px.png" width="100%">
 
 What we want is for the column layout to adjust based on the browser font size. That way things don't look so crowded like above. Below is an example of using em units in media queries break points. At 56.25em and 20px browser font size we now have a break point of 1125px screen width (56.25em\*20px). So at 912px (example) screen width the column structure will colapse to single column and anything above 1125px it will go back to a three column layout.
@@ -1533,7 +1533,7 @@ In order to run watch:sass and live-server we can enter both commands into seper
     "start": "npm-run-all --parallel devserver watch:sass",
 ```
 
-## Final touches to the Natours project
+## Final touches to the Tours Travel Agency project
 
 #### Changing text selection color
 
