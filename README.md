@@ -1,4 +1,4 @@
-# Tours Travel Agency
+# [Tours Travel Agency](https://randyaajr.github.io/sass-project_tours-travel-agency/)
 
 ### Table of Contents (under construction)
 
@@ -1575,5 +1575,3 @@ Solution is to add condition into the card media query. Since we were using a mi
 @media only screen and (max-width: 56.25em),
 only screen and (hover: none) {
 ```
-
-[Tours Link](https://randyaajr.github.io/sass-project_tours-travel-agency/)
