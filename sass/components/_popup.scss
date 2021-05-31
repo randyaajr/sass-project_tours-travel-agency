@@ -20,16 +20,29 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(0.25);
         transition: all 0.5s 0.2s;
+        @include respond(tab-land) {
+            width: 95%;
+        }
+        @include respond(tab-port) {
+            display: inline-block;
+        }
     }
     &__left {
         width: 33.333333%;
         display: table-cell;
+        @include respond(tab-port) {
+            display: none;
+        }
     }
     &__right {
         width: 66.6666667%;
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+        @include respond(tab-port) {
+            display: inline-block;
+            width: calc(100%);
+        }
     }
     &__img {
         display: block;
@@ -47,7 +60,12 @@
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
-        hyphens: auto;
+        hyphens: auto; // This only functions when <html lang="en"> is defined
+        @include respond(tab-land) {
+            font-size: 1.6rem;
+            column-count: 1;
+            margin-bottom: 1rem;
+        }
     }
     //Open states
     &:target {
